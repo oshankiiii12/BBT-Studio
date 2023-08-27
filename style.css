@@ -1,0 +1,96 @@
+.bgimg{
+    background-image: url(Images/body.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height:660px;
+    width:100%;
+}
+.headerset{
+    padding-top:190px;
+    padding-bottom:190px;
+    box-sizing:border-box;
+}
+.headerset h1{
+    font-size:82px;
+    font-weight:bold;
+}
+.headerset h2{
+    font-size:42px;
+}
+
+@media(max-width:767px){
+    .headerset h1{
+        font-size:42px;
+    }
+    .headerset h2{
+        font-size:22px;
+    }
+    .headerset{
+        padding-top: 210px;
+        padding-bottom: 210px;
+    }
+}
+
+/* Services */
+
+#services{
+    margin-top:100px;
+}
+.services-heading{
+    text-align:center;
+}
+.services-heading h1{
+    font-weight:bold;
+    font-size:50px;
+}
+.our-services{
+    text-align:center;
+    padding:9%;
+}
+.icon-services{
+    border-radius:50%;
+    padding-top:25px;
+    height:100px;
+    width:100px;
+}
+.service-col h3{
+    font-weight:bold;
+}
+.service-col p{
+    color:#6c757d;
+}
+
+/* Portfolio */
+
+#portfolio{
+    padding-top:90px;
+}
+.heading h1{
+    font-size:50px;
+    font-weight:bold;   
+}
+.card{
+    margin:7%;
+}
+.p-img{
+    width:100%;
+}
+
+/* Team */
+
+.heading{
+    margin-top:80px;
+}
+.team-img{
+    border-radius:100%;
+    width:70%;
+    margin-top:70px;
+    margin-bottom:20px;
+}
+
+/* Footer */
+
+footer{
+    padding-top:7%;
+    text-align:center;
+}
